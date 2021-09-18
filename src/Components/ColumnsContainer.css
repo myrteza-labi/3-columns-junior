@@ -1,0 +1,31 @@
+/*  LA COULEUR DE FOND NE SE GÈRE PAS ICI. 
+    Pour changer la couleur de fond des sections, 
+    retournez sur la page index.css, et suivez les indications. 
+*/
+
+.ColumnsContainer {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 375px; 
+    width: 375px; 
+    height: auto; 
+}
+.sedansBackground {
+    background-color: var(--bg-color-sedans);
+}
+.suvsBackground {
+    background-color: var(--bg-color-suvs);
+}
+.luxuryBackground {
+    background-color: var(--bg-color-luxury);
+}
+.ColumnTitle {
+    text-transform: uppercase;
+    color: #fff; 
+    font-family: var(--titleFont) ; 
+}
+
+.simpleText {
+    color: #fff; 
+    font-family: var(--simpleText); 
+}

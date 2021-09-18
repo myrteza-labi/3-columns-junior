@@ -4,7 +4,7 @@ import TextBox from './TextBox';
 
 function Column(props){
     return(
-        <section className="Column">
+        <section className={props.className}>
             {props.children}
         </section>
     )

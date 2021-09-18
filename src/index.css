@@ -1,5 +1,32 @@
-body {
+/* Pour changer la couleur de fond des différentes sections
+  il vous suffit de mofifier la valeur de la couleur associée 
+  à la section que vous souhaitez modifier.
+*/
+:root {
+
+  /* couleurs de fonds des 3 principales sections */
+  --bg-color-sedans: #e28525; 
+  --bg-color-suvs: #026972; 
+  --bg-color-luxury: #00403f; 
+
+  /* Styles des textes principaux de l'app */
+  --titleFont: 'Barlow Condensed', sans-serif;
+  --simpleText: Roboto, arial; 
+} 
+* {
   margin: 0;
+  padding: 0; 
   box-sizing: border-box; 
+  overflow: hidden; 
 }
 
+body, html {
+  height: 100%; 
+}
+
+body {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+}
