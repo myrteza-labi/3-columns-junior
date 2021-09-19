@@ -10,18 +10,16 @@
   --bg-color-luxury: #00403f; 
 
   /* Styles des textes principaux de l'app */
-  --titleFont: 'Barlow Condensed', sans-serif;
+  --titleFont:'Oswald', sans-serif;
+
   --simpleText: Roboto, arial; 
 } 
+
 * {
   margin: 0;
   padding: 0; 
   box-sizing: border-box; 
   overflow: hidden; 
-}
-
-body, html {
-  height: 100%; 
 }
 
 body {

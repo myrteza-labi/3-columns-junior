@@ -9,6 +9,7 @@
     max-width: 375px; 
     width: 375px; 
     height: auto; 
+    border-radius: 10px; 
 }
 .sedansBackground {
     background-color: var(--bg-color-sedans);
@@ -22,10 +23,14 @@
 .ColumnTitle {
     text-transform: uppercase;
     color: #fff; 
-    font-family: var(--titleFont) ; 
+    font-family: var(--titleFont);
+    padding-top: 30px;  
+    font-size: 35px; 
 }
 
 .simpleText {
     color: #fff; 
     font-family: var(--simpleText); 
+    line-height: 25px; 
+    padding-top: 20px; 
 }

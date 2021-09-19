@@ -24,7 +24,7 @@ function ColumnsContainer(){
                     fuel economy. Ideal for cruising in the city or on 
                     your next road trip.
                 </p>
-                <Button/>
+                <Button className={'Button btnSedans'}/>
             </Column>
 
             <Column className={"Column suvsBackground"}>
@@ -37,7 +37,7 @@ function ColumnsContainer(){
                     versatility. Perfect for your next family vacation 
                     and off-road adventures. 
                 </p>
-                <Button/>
+                <Button className={'Button btnSuvs'}/>
             </Column>
 
             <Column className={"Column luxuryBackground"}>
@@ -50,7 +50,7 @@ function ColumnsContainer(){
                     prices. Enjoy the enhanced comfort of a luxury 
                     rental and arrive in style. 
                 </p>
-                <Button/>
+                <Button className={'Button btnLuxury'}/>
             </Column>
 
         </div>
