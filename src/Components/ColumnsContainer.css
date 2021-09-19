@@ -36,3 +36,10 @@
     line-height: 25px; 
     padding-top: 20px; 
 }
+
+@media screen and (max-width: 410px) {
+    .ColumnsContainer {
+        margin: 0; 
+        min-width: 375px; 
+    }
+}
